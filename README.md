@@ -24,6 +24,7 @@ This project is a simple web application that generates a random OTP (One-Time P
 
 ## HTML Code
 
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -45,8 +46,10 @@ This project is a simple web application that generates a random OTP (One-Time P
     </div>
 </body>
 </html>
-
+```
 ## CSS Code
+
+```css
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
@@ -98,7 +101,14 @@ h2{
 
 }
 
-##JAVASCRIPT CODE💫🔥
+
+##CSS Code
+```
+
+## JAVASCRIPT CODE
+
+```js
+
 const otp= document.querySelector('.otp')
 const genotp= document.querySelector('.genotp');
 const otplen= document.querySelector('.otplen');
@@ -116,14 +126,10 @@ genotp.addEventListener('click',()=>{
     if(otplen.value!=''){
        otp.innerHTML= getopt(+otplen.value) 
        genotp.innerHTML='Resend Otp'
-
-
-
     }
-
-
 
     
 })
+```
+##WELCOME TO YOU FOR VISIT MY GITHUB PROFILE
 
-## #welcome to you for visit my github Profile
